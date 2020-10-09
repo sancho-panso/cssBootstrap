@@ -1,0 +1,23 @@
+.container-fluid{
+	background-color: grey;
+}
+
+.container{
+	background-color: grey;
+	color: white;
+}
+
+header {
+	margin: auto;
+	border: solid 3px lightgrey;
+}
+
+p {
+	text-align: center;
+	line-height: 150px;
+}
+
+.first, .second {
+	min-height: 300px;
+	border: solid 3px lightgrey;
+}
