@@ -1,0 +1,157 @@
+body{
+	height: 100%;
+}
+
+.container-fluid{
+	background-color: rgb(218, 218, 218);
+}
+
+.container{
+	background-color: rgb(218, 218, 218);
+	color: rgb(68, 68, 68);
+}
+
+header {
+	margin:auto;
+	height: max-content;
+	border-bottom: 3px solid rgb(177, 177, 177);
+}
+header div[class~="col-sm-5"]{
+	margin-bottom: 5px;
+}
+
+footer {
+	border-top:3px solid rgb(177, 177, 177); ;
+}
+
+.suzuki-title {
+	background-color: rgb(206, 206, 206);
+	border: none;
+	margin: 2% auto;	
+}
+
+.suzuki-title>p{
+	border: none;
+}
+
+.nav-link  {
+    background-color: rgb(245, 245, 245);
+    border: solid 0.5px rgb(207, 207, 207);
+    color: rgb(68, 68, 68);
+	margin: auto;
+	margin-right: 1px;
+	margin-top: 5px;
+    padding: 0 3px;
+    text-align: center;
+    
+}
+
+/* hide the blue outline */
+.form-control:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+
+div[class~="col-sm-12"]{
+	margin: 2% auto;
+}
+
+div[class~="col-sm-12"] a{
+	background-color:none;
+	border-radius: 5px;
+}
+
+.renginiai{
+	padding: 0;
+	border-bottom: 2px solid rgb(177, 177, 177);
+
+}
+
+.renginiai p{
+	border: none;
+	line-height: normal;
+	margin: auto;
+	text-align: left;
+}
+
+.renginiai div[class~="col-sm-5"] > p{
+	text-align: right;
+	font-size: 0.8em ;
+}
+
+.list-group li{
+	background-color: rgb(201, 201, 201);
+	margin-bottom: 7px;
+	line-height: 5px;
+}
+
+.list-group a{
+	text-align: left;
+	color: white;
+	margin-right: 10px;
+}
+.list-group + a {
+	font-size: 1em;
+	border-radius: 25px;
+	padding: 0 20px;
+	margin-left: 30%;
+}
+
+.btn-secondary{
+	border-radius: 25px;
+	font-size: 0.7em;
+}
+
+img[alt~="news1"]{
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+
+.news1 p{
+	border: none;
+	line-height: 20px;
+	text-align: justify;
+	margin: 0;
+}
+
+.readMore{
+	font-size: 0.9em;
+	text-align: end;
+}
+
+.col-sm-1{
+	padding: 30px;
+}
+
+.col-sm-1 a{
+	font-size: 2em;
+	text-align: right;
+	color: white;
+	background-color: none;
+}
+.col-sm-12 i{
+	font-size: 1em;
+	text-align: right;
+	color: black;
+	background-color: none;
+}
+
+.list2 > ul >li{
+	background-color:  rgb(218, 218, 218);
+	border: none;
+	padding: 0;
+}
+
+.row-cols-sm-4 img{
+	width: 60px;
+	height: 60px;
+}
+.row-cols-sm-4 .col{
+	padding: 20px;
+}
+
+footer > div {
+	margin-top: 20px;
+}
+

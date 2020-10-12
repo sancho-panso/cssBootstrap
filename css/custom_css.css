@@ -9,12 +9,13 @@
 
 header {
 	margin: auto;
-	border: solid 3px lightgrey;
+
 }
 
 p {
 	text-align: center;
 	line-height: 150px;
+	border: solid 3px lightgrey;
 }
 
 .first, .second {
